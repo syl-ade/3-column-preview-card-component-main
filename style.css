@@ -91,6 +91,9 @@ background-color: var(--dark-cyan);
 }
 
 @media (max-width: 576px) {
+    body {
+        margin: 50px auto;
+    }
     .container {
         max-width: 300px;
     }
