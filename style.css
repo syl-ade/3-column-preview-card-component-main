@@ -18,7 +18,7 @@ html {
 }
 
 body {
-    margin: 220px auto;
+    margin: 10% auto;
     background-color: var(--neutral) ;
 }
 
@@ -92,9 +92,7 @@ background-color: var(--dark-cyan);
 }
 
 @media (max-width: 576px) {
-    body {
-        margin: 50px auto;
-    }
+    
     .container {
         max-width: 300px;
     }
