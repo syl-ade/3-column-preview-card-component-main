@@ -17,9 +17,7 @@ html {
 body {
     margin: 12% auto;
     background-color: var(--neutral) ;
-    display: flex;
-    flex-direction: row;
-    align-content: center;
+    
 }
 
 img {
@@ -35,20 +33,10 @@ p{
 }
 
 footer {
-    margin-bottom: 5px;
+    display: block;
 }
 
-.container {
-    width: 800px;
-    margin: auto;
-    padding: 0;
-}
-
-.header{
-    font-family: var(--header-font-family);
-    font-size: var(--header-font-size);
-    text-transform: uppercase;
-}
+/******************classes******************/
 
 .btn {
     display:block;
@@ -78,6 +66,27 @@ footer {
     color: var(--neutral);
 }
 
+.container {
+    width: 800px;
+    margin: auto;
+    padding: 0;
+}
+
+.header{
+    font-family: var(--header-font-family);
+    font-size: var(--header-font-size);
+    text-transform: uppercase;
+}
+
+.project {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+}
+
+
+/********ids********************/
+
 #sedan {
     background-color: var(--orange);
     border-top-left-radius: 8px;
@@ -93,6 +102,8 @@ background-color: var(--dark-cyan);
     border-top-right-radius: 8px;
     border-bottom-right-radius: 8px;
 }
+
+/*************responsiveness************/
 
 @media (max-width: 576px) {
     
